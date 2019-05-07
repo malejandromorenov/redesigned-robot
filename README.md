@@ -2,7 +2,10 @@
 
 Based in the cloud on Google, I'm test the solution in the dashboard, i have a one machine with Linux Ubuntu and one container on Kubernetes.
 First time a probe with Apache Local and hold up web pages or open port for next services.
-
+```go
+apt install gccgo-go
+export PATH=$PATH:/snap/bin
+```
 ```cmd
 sudo apt-get install apache2
 sudo apt-get install http
