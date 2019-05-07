@@ -6,12 +6,13 @@ First time a probe with Apache Local and hold up web pages or open port for next
 apt install gccgo-go
 export PATH=$PATH:/snap/bin
 ```
+# Install LAMP
 ```cmd
 sudo apt-get install apache2
 sudo apt-get install http
 ```
 Over other instance of time
-## Install Drive in shell linux
+## Install Google-Drive in Shell Linux
 ```cmd
 sudo add-apt-repository ppa:twodopeshaggy/drive
 sudo apt-get update
