@@ -17,7 +17,16 @@ sudo apt-get install drive
 Also run
 ```cmd
 sudo apt install zypper
+sudo zypper in go mercurial git hg-git
+
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
+
+go get github.com/odeke-em/drive/cmd/drive
+
+
 ```
+
 Add repos in the terminal
 ```cmd
 zypper ar http://download.videolan.org/pub/vlc/SuSE/11.1 vlc # Not functional
