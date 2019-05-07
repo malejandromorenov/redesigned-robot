@@ -11,7 +11,7 @@ sudo apt-get install apache2
 sudo apt-get install http
 ```
 Over other instance of time
-Install Drive in shell linux
+## Install Drive in shell linux
 ```cmd
 sudo add-apt-repository ppa:twodopeshaggy/drive
 sudo apt-get update
@@ -21,13 +21,22 @@ Also run
 ```cmd
 sudo apt install zypper
 sudo zypper in go mercurial git hg-git
-
+```
+Add a init
+```shell
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
-
+```
+Copy the content, create folder and play on
+```shell
 go get github.com/odeke-em/drive/cmd/drive
+mkdir Google-Drive
+cd Google-Drive
 
-
+drive init #Login in Drive
+drive diff #Compare archives cloud vs machine
+drive pull #Come Down archives
+drive push #Loop folder
 ```
 
 Add repos in the terminal
