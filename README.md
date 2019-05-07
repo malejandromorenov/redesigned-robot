@@ -10,6 +10,8 @@ export PATH=$PATH:/snap/bin
 ```cmd
 sudo apt-get install apache2
 sudo apt-get install http
+sudo apt-get update
+sudo apt-get install apache2 php libapache2-mod-php
 ```
 Over other instance of time
 ## Install Google-Drive in Shell Linux
