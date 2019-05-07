@@ -7,6 +7,9 @@ apt install gccgo-go
 export PATH=$PATH:/snap/bin
 ```
 # Install LAMP
+Referencias*
+https://cloud.google.com/community/tutorials/setting-up-lamp#setting-up-dns%3Fhl=es
+
 ```cmd
 sudo apt-get install apache2
 sudo apt-get install http
