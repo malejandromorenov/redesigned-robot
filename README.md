@@ -2,6 +2,13 @@
 
 Based in the cloud on Google, I'm test the solution in the dashboard, i have a one machine with Linux Ubuntu and one container on Kubernetes.
 First time a probe with Apache Local and hold up web pages or open port for next services.
+Probe Scann Port in the World Wide Web
+Try
+```cmd
+nmap -p 1-100 192.168.1.1
+```
+Where '-p' places to range port.
+
 ```go
 apt install gccgo-go
 export PATH=$PATH:/snap/bin
