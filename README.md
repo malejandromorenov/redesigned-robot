@@ -21,8 +21,8 @@ The probe is wth Apache Local Server and PHP.
 
 Reference *
 ___________________________
-https://cloud.google.com/community/tutorials/setting-up-lamp#setting-up-dns%3Fhl=es
-https://cloud.google.com/storage/docs/hosting-static-website
+[Create a LAMP CODE](https://cloud.google.com/community/tutorials/setting-up-lamp#setting-up-dns%3Fhl=es)
+[Hosting your Issues](https://cloud.google.com/storage/docs/hosting-static-website)
 ___________________________
 
 ```cmd
