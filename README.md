@@ -16,8 +16,12 @@ apt install gccgo-go
 export PATH=$PATH:/snap/bin
 ```
 # Install LAMP
-Referencias*
+Take a chance and choice, its work normally, the server is running into the water for wide experences play on.
+The probe is wth Apache Local Server and PHP.
+Reference *
+___________________________
 https://cloud.google.com/community/tutorials/setting-up-lamp#setting-up-dns%3Fhl=es
+___________________________
 
 ```cmd
 sudo apt-get install apache2
