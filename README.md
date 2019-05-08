@@ -9,6 +9,8 @@ nmap -p 1-100 192.168.1.1
 ```
 Where '-p' places to range port.
 
+
+Now run Go Language
 ```go
 apt install gccgo-go
 export PATH=$PATH:/snap/bin
