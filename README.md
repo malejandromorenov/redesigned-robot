@@ -34,7 +34,7 @@ sudo apt-get install apache2 php libapache2-mod-php
 sudo apt-get install phpmyadmin
 ```
 
-
+gpg --fingerprint 0x63fee659
 
 
 Over other instance of time
