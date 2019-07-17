@@ -81,43 +81,23 @@ Clean the trash, if will your mind, delete something and start the new carrer. O
 ```
 apt-get install elinks
 ```
+###### Keyboard Shortcuts
+
 | Action | Key |
 | --- | --- |
-|Open new tab| -t|
-| Goto URL      |-g     |
-| Go back          | -Left    | 
-|Exit             |     |
-| Toggle images          |     |
-|Toggle link numbering           |     |
-|Toggle document colours            |     |  
-|Next tab           |     | 
-|Previous tab            |     |
-| Close tab           |     |
-|Open in new tab in background           |     |
+|Open new tab                             | -t|
+| Goto URL                                |-g   |
+| Go back                                 |-Left | 
+|Exit                                     |- u  |
+| Toggle images                           |  -q   |
+|Toggle link numbering                    |   -*  |
+|Toggle document colours                  |   -.  |  
+|Next tab                                 |   -<  | 
+|Previous tab                             |   ->  |
+| Close tab                               |    -c |
+|Open in new tab in background            |    -T |
 
 
-
-
-
-
-
-
-
-###### Keyboard Shortcuts
-________________________________________________________
-
-*                       - t
-*                           - g
-*                            - Left
-*                         - u
-*                             - q
-*                      - *
-*             - .
-*           - %
-*                           - >
-*                      - <
-*                         - c
-*      - T
 * Automatic URL rewrites
 
 * d - dictionary search
