@@ -76,3 +76,51 @@ https://nu.novell.com/repo/$RCE/SLES11-SP4-Pool/sle-11-x86_64 SLES
 ```
 
 Clean the trash, if will your mind, delete something and start the new carrer. Open-SUSE was stable since now am trying in Ubuntu. 
+
+# ELinks (install):
+```
+apt-get install elinks
+```
+
+###### Keyboard Shortcuts
+________________________________________________________
+
+* Open new tab                      - t
+* Goto URL                          - g
+* Go back                           - Left
+* Go forward                        - u
+* Exit                              - q
+* Toggle images                     - *
+* Toggle link numbering             - .
+* Toggle document colours           - %
+* Next tab                          - >
+* Previous tab                      - <
+* Close tab                         - c
+* Open in new tab in background     - T
+* Automatic URL rewrites
+
+* d - dictionary search
+* oz - dmoz search
+* - google search
+* wiki - wikipedia search
+(source)
+__________________________________________________________
+
+
+Solve to delete any repositories in Debian /Ubuntu
+Sometimes when you try update the package, the console will show
+```sh
+E: The repository 'http://ppa.launchpad.net/fkrull/deadsnakes/ubuntu bionic Release' does not have a Release file.
+```
+For solve this, try remove the link.
+```sh
+sudo add-apt-repository -r ppa:<repo to remove>
+```
+For add repositories
+
+<a href="ppa:cualquier/repositorio">ppa:cualquier/repositorio</a>
+
+```sh
+sudo add-apt-repository ppa:atareao/ppaurl
+```
+
